@@ -255,11 +255,22 @@
     width: 100%;
   }
 
+  #product {
+    flex-direction: column;
+  }
+
+  .parent-container {
+    flex-direction: column;
+  }
+
+  #last-viewed {
+    width: 100%;
+    order: -1;
+  }
+
   #product1, #product2, #product3, #product4, #product5, #product6, #product7, #product8, #product9, #product10, #product11, #product12, #product13, #product14, #product15, #product16, #product17, #product18, #product19, #product20, #product21, #product22, #product23, #product24, #product25lastviewed {
     width: 100%;
   }
 
-  #last-viewed {
-    display: none;
-  }
+  
 }
