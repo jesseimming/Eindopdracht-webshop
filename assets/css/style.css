@@ -41,9 +41,15 @@
 }
 
 #price {
-  width: 100%;
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 10vh; /* Adjust this as needed */
 }
+
+
+
 
 #product {
   display: flex;
